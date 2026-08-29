@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Luiz Mario Moutinho">
+  <rect width="64" height="64" rx="20" fill="#0B2128"/>
+  <path d="M17 16v30h19v-7H25V16h-8Z" fill="#FBF9F4"/>
+  <path d="M31 16h8l8 13V16h7v30h-7V31l-8-12v27h-8V16Z" fill="#D98258"/>
+</svg>
