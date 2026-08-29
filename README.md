@@ -1,8 +1,7 @@
 # Luiz Mario Moutinho — Cuidado e movimento
 
 Landing page profissional para divulgação dos atendimentos de Luiz Mario Moutinho: terapias
-integrativas, acupuntura, massoterapia, técnicas corporais, personal trainer e consultoria de
-treinamento físico.
+integrativas, acupuntura, técnicas corporais, personal trainer e consultoria de treinamento físico.
 
 ## Tecnologias
 

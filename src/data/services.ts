@@ -1,6 +1,5 @@
 import acupunctureImage from '../assets/images/acupuntura.webp';
 import fascialImage from '../assets/images/liberacao-miofascial.webp';
-import massageImage from '../assets/images/massoterapia.webp';
 import manipulationImage from '../assets/images/manipulacao-vertebral.webp';
 import cuppingImage from '../assets/images/ventosaterapia.webp';
 
@@ -38,23 +37,6 @@ export const therapies: Therapy[] = [
       'Olá, Luiz! Conheci seu trabalho pelo site e gostaria de saber mais sobre a acupuntura.',
   },
   {
-    id: 'massoterapia',
-    name: 'Massoterapia',
-    duration: 'Aproximadamente 60 min',
-    description:
-      'Atendimento corporal que pode combinar diferentes técnicas de massagem de acordo com as necessidades percebidas no encontro.',
-    indications:
-      'Uma possibilidade para quem convive com tensão muscular, sobrecarga corporal, estresse ou busca uma pausa de cuidado.',
-    benefits: ['Relaxamento muscular', 'Consciência corporal', 'Bem-estar e recuperação'],
-    image: massageImage,
-    imageAlt: 'Mãos realizando uma técnica de massoterapia nas costas.',
-    singlePrice: 150,
-    packageFour: 540,
-    packageTen: 1200,
-    message:
-      'Olá, Luiz! Conheci seu trabalho pelo site e gostaria de saber mais sobre a massoterapia.',
-  },
-  {
     id: 'manipulacao-vertebral',
     name: 'Manipulação vertebral',
     duration: 'Aproximadamente 60 min',
@@ -82,9 +64,9 @@ export const therapies: Therapy[] = [
     benefits: ['Mobilidade dos tecidos', 'Alívio de tensões', 'Recuperação corporal'],
     image: fascialImage,
     imageAlt: 'Pressão manual controlada durante um atendimento corporal.',
-    singlePrice: 120,
-    packageFour: 430,
-    packageTen: 960,
+    singlePrice: 150,
+    packageFour: 540,
+    packageTen: 1200,
     message:
       'Olá, Luiz! Conheci seu trabalho pelo site e gostaria de saber mais sobre a liberação miofascial.',
   },
