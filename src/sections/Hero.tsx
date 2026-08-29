@@ -2,6 +2,7 @@ import { ArrowDown, HeartPulse, House, Sparkles } from 'lucide-react';
 import portraitImage640 from '../assets/images/luiz-moutinho-retrato-640.webp';
 import portraitImage960 from '../assets/images/luiz-moutinho-retrato-960.webp';
 import { ButtonLink } from '../components/ButtonLink';
+import { ServiceImageRail } from '../components/ServiceImageRail';
 import { WhatsAppButton } from '../components/WhatsAppButton';
 import { contactMessages } from '../data/contact';
 
@@ -14,7 +15,9 @@ export function Hero() {
       className="hero-pattern relative overflow-hidden bg-paper pt-[72px]"
       aria-labelledby="hero-title"
     >
-      <div className="mx-auto grid min-h-[calc(100svh-72px)] max-w-7xl items-center gap-12 px-5 py-14 lg:grid-cols-[1.08fr_0.92fr] lg:px-8 lg:py-20">
+      <ServiceImageRail />
+
+      <div className="mx-auto grid min-h-[calc(100svh-72px-12rem)] max-w-7xl items-center gap-12 px-5 py-14 lg:grid-cols-[1.08fr_0.92fr] lg:px-8 lg:py-20">
         <div className="relative z-10 max-w-3xl animate-[rise-in_700ms_ease-out_both]">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-teal/18 bg-white/74 px-4 py-2 text-xs font-extrabold tracking-[0.12em] text-teal uppercase shadow-sm backdrop-blur">
             <House aria-hidden="true" className="size-4" />

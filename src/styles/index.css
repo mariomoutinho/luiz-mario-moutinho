@@ -96,6 +96,32 @@
   background-size: 72px 72px;
 }
 
+.service-rail__viewport {
+  overflow: hidden;
+  touch-action: pan-y;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 4%, black 96%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 4%, black 96%, transparent);
+}
+
+.service-rail__track {
+  display: flex;
+  width: max-content;
+  animation: service-rail-scroll 34s linear infinite;
+  will-change: transform;
+}
+
+.service-rail__group {
+  display: flex;
+  flex-shrink: 0;
+  gap: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.service-rail:hover .service-rail__track,
+.service-rail:focus-within .service-rail__track {
+  animation-play-state: paused;
+}
+
 .faq-item summary::-webkit-details-marker {
   display: none;
 }
@@ -112,6 +138,12 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes service-rail-scroll {
+  to {
+    transform: translateX(-50%);
   }
 }
 
@@ -133,5 +165,20 @@
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+  }
+
+  .service-rail__viewport {
+    overflow-x: auto;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  .service-rail__track {
+    animation: none !important;
+    transform: none !important;
+  }
+
+  .service-rail__group[aria-hidden='true'] {
+    display: none;
   }
 }
