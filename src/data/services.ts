@@ -1,4 +1,5 @@
 import acupunctureImage from '../assets/images/acupuntura.webp';
+import auriculotherapyImage from '../assets/images/auriculoterapia.webp';
 import fascialImage from '../assets/images/liberacao-miofascial.webp';
 import manipulationImage from '../assets/images/manipulacao-vertebral.webp';
 import cuppingImage from '../assets/images/ventosaterapia.webp';
@@ -35,6 +36,23 @@ export const therapies: Therapy[] = [
     packageTen: 1200,
     message:
       'Olá, Luiz! Conheci seu trabalho pelo site e gostaria de saber mais sobre a acupuntura.',
+  },
+  {
+    id: 'auriculoterapia',
+    name: 'Auriculoterapia',
+    duration: 'Aproximadamente 30 min',
+    description:
+      'Técnica que estimula pontos reflexos na orelha com sementes, esferas ou outros recursos não invasivos para apoiar o equilíbrio do organismo.',
+    indications:
+      'Pode complementar o cuidado de dores e tensões, ansiedade e estresse, hábitos de saúde e qualidade do sono.',
+    benefits: ['Apoio à autorregulação', 'Cuidado complementar', 'Praticidade'],
+    image: auriculotherapyImage,
+    imageAlt: 'Estímulo reflexológico em pontos da orelha durante uma sessão de auriculoterapia.',
+    singlePrice: 70,
+    packageFour: 250,
+    packageTen: 560,
+    message:
+      'Olá, Luiz! Conheci seu trabalho pelo site e gostaria de saber mais sobre a auriculoterapia.',
   },
   {
     id: 'manipulacao-vertebral',
