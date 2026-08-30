@@ -11,14 +11,14 @@ const steps = [
   {
     number: '02',
     icon: MessagesSquare,
-    title: 'Converse com Luiz',
-    text: 'A partir do seu objetivo, vocês identificam o atendimento ou acompanhamento adequado.',
+    title: 'Converse comigo',
+    text: 'A partir do seu objetivo, identificamos juntos o atendimento ou acompanhamento adequado.',
   },
   {
     number: '03',
     icon: CalendarCheck,
     title: 'Combine os detalhes',
-    text: 'O horário, o local do atendimento a domicílio ou o formato do acompanhamento são alinhados.',
+    text: 'Alinhamos o horário, o local do atendimento a domicílio ou o formato do acompanhamento.',
   },
 ];
 

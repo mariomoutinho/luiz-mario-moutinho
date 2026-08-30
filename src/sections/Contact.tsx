@@ -21,7 +21,7 @@ export function Contact() {
               Vamos conversar sobre o cuidado que faz sentido para você?
             </h2>
             <p className="mt-5 max-w-2xl text-base leading-7 text-white/72 sm:text-lg">
-              Conte seu objetivo, tire suas dúvidas e combine o atendimento diretamente com Luiz.
+              Conte seu objetivo, tire suas dúvidas e combine o atendimento diretamente comigo.
             </p>
             <WhatsAppButton
               message={contactMessages.general}

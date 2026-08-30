@@ -31,7 +31,7 @@ export function About() {
         <div className="grid items-start gap-14 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
           <div className="lg:sticky lg:top-28">
             <SectionHeading
-              eyebrow="Sobre Luiz"
+              eyebrow="Sobre mim"
               title="Um olhar inteiro para saúde, corpo e movimento."
               description="O atendimento parte de uma conversa honesta sobre o que você busca e integra recursos terapêuticos ou treinamento físico de acordo com essa necessidade."
             />
@@ -47,10 +47,9 @@ export function About() {
 
           <div>
             <p className="text-lg leading-8 text-navy/76">
-              Luiz atua como terapeuta integrativo, acupunturista, massoterapeuta, personal trainer
-              e consultor de treinamento físico. Seu trabalho aproxima o cuidado corporal do
-              movimento consciente, respeitando a individualidade, o contexto e os limites de cada
-              pessoa.
+              Atuo como terapeuta integrativo, acupunturista, massoterapeuta, personal trainer e
+              consultor de treinamento físico. Meu trabalho aproxima o cuidado corporal do movimento
+              consciente, respeitando a individualidade, o contexto e os limites de cada pessoa.
             </p>
             <p className="mt-5 text-lg leading-8 text-navy/76">
               A proposta pode apoiar objetivos ligados a dor, mobilidade, qualidade de vida,

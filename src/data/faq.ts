@@ -2,7 +2,7 @@ export const faqItems = [
   {
     question: 'Qual terapia é mais adequada para mim?',
     answer:
-      'Você pode contar seu objetivo e como está se sentindo pelo WhatsApp. A partir dessa conversa, Luiz ajuda a identificar qual atendimento pode fazer mais sentido.',
+      'Você pode contar seu objetivo e como está se sentindo pelo WhatsApp. A partir dessa conversa, ajudo a identificar qual atendimento pode fazer mais sentido.',
   },
   {
     question: 'Preciso fazer uma avaliação antes?',
@@ -22,7 +22,7 @@ export const faqItems = [
   {
     question: 'Como recebo meu treino pelo MFIT?',
     answer:
-      'O treino é organizado no aplicativo MFIT com exercícios, séries, repetições e orientações. Os detalhes do acompanhamento são combinados diretamente com Luiz.',
+      'O treino é organizado no aplicativo MFIT com exercícios, séries, repetições e orientações. Os detalhes do acompanhamento são combinados diretamente comigo.',
   },
   {
     question: 'O treinamento para TAF considera o edital?',
@@ -32,7 +32,7 @@ export const faqItems = [
   {
     question: 'Onde acontecem os atendimentos?',
     answer:
-      'Os atendimentos são realizados a domicílio. O local, a disponibilidade e o horário são combinados diretamente com Luiz pelo WhatsApp.',
+      'Os atendimentos são realizados a domicílio. O local, a disponibilidade e o horário são combinados diretamente comigo pelo WhatsApp.',
   },
   {
     question: 'Como posso agendar?',

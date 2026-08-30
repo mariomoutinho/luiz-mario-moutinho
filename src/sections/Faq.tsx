@@ -10,7 +10,7 @@ export function Faq() {
           <SectionHeading
             eyebrow="Dúvidas frequentes"
             title="O que você pode querer saber antes de começar."
-            description="Se a sua dúvida não estiver aqui, chame Luiz no WhatsApp."
+            description="Se a sua dúvida não estiver aqui, fale comigo pelo WhatsApp."
           />
         </div>
 

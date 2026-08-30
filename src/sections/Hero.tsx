@@ -49,7 +49,7 @@ export function Hero() {
               variant="secondary"
               className="sm:px-6"
             >
-              Falar com Luiz
+              Falar comigo
             </WhatsAppButton>
           </div>
 

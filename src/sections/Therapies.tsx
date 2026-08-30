@@ -13,7 +13,7 @@ export function Therapies() {
           <SectionHeading
             eyebrow="Terapias"
             title="Presença e técnica a serviço do seu bem-estar."
-            description="Conheça os atendimentos e converse com Luiz para entender qual caminho pode ser mais adequado ao seu momento."
+            description="Conheça os atendimentos e converse comigo para entender qual caminho pode ser mais adequado ao seu momento."
           />
           <WhatsAppButton
             message={contactMessages.therapies}
