@@ -39,7 +39,7 @@ export const therapies: Therapy[] = [
   {
     id: 'manipulacao-vertebral',
     name: 'Manipulação vertebral',
-    duration: 'Aproximadamente 60 min',
+    duration: 'Aproximadamente 30 min',
     description:
       'Técnica manual direcionada à mobilidade articular e ao cuidado de regiões com rigidez ou desconforto postural.',
     indications:
@@ -73,7 +73,7 @@ export const therapies: Therapy[] = [
   {
     id: 'ventosaterapia',
     name: 'Ventosaterapia',
-    duration: 'Aproximadamente 45 min',
+    duration: 'Aproximadamente 30 min',
     description:
       'Técnica que utiliza ventosas para mobilizar os tecidos, favorecer o relaxamento muscular e estimular a circulação local.',
     indications:
