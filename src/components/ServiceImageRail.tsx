@@ -1,10 +1,14 @@
-import { ArrowUpRight } from 'lucide-react';
+import { useState } from 'react';
+import { ArrowUpRight, Pause, Play } from 'lucide-react';
 import { therapies } from '../data/services';
 
 export function ServiceImageRail() {
+  const [isPaused, setIsPaused] = useState(false);
+  const buttonLabel = isPaused ? 'Retomar esteira' : 'Pausar esteira';
+
   return (
     <div
-      className="service-rail border-y border-white/10 bg-navy py-3 text-white"
+      className={`service-rail border-y border-white/10 bg-navy py-3 text-white ${isPaused ? 'is-paused' : ''}`}
       role="region"
       aria-label="Imagens dos serviços ofertados"
     >
@@ -12,13 +16,34 @@ export function ServiceImageRail() {
         <p className="text-[11px] font-extrabold tracking-[0.2em] text-sand uppercase">
           Atendimentos em destaque
         </p>
-        <p className="hidden text-xs text-white/55 sm:block">
-          Selecione uma imagem para conhecer o serviço
-        </p>
+        <div className="flex items-center gap-3">
+          <p className="hidden text-xs text-white/55 md:block">
+            Selecione uma imagem para conhecer o serviço
+          </p>
+          <button
+            type="button"
+            aria-controls="service-image-rail-track"
+            aria-label={buttonLabel}
+            aria-pressed={isPaused}
+            onClick={() => setIsPaused((paused) => !paused)}
+            className={`inline-flex shrink-0 items-center gap-2 rounded-full border px-3 py-2 text-[11px] font-extrabold whitespace-nowrap transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sand ${
+              isPaused
+                ? 'border-terracotta/70 bg-terracotta text-navy'
+                : 'border-white/15 bg-white/10 text-white hover:bg-white/15'
+            }`}
+          >
+            {isPaused ? (
+              <Play aria-hidden="true" className="size-3.5" fill="currentColor" />
+            ) : (
+              <Pause aria-hidden="true" className="size-3.5" fill="currentColor" />
+            )}
+            {buttonLabel}
+          </button>
+        </div>
       </div>
 
       <div className="service-rail__viewport">
-        <div className="service-rail__track">
+        <div id="service-image-rail-track" className="service-rail__track">
           {[false, true].map((isDuplicate) => (
             <ul
               key={isDuplicate ? 'duplicate' : 'original'}

@@ -120,10 +120,13 @@
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .service-rail:hover .service-rail__track,
-  .service-rail:focus-within .service-rail__track {
+  .service-rail__viewport:hover .service-rail__track {
     animation-play-state: paused;
   }
+}
+
+.service-rail.is-paused .service-rail__track {
+  animation-play-state: paused;
 }
 
 .faq-item summary::-webkit-details-marker {
@@ -175,18 +178,10 @@
     transition-duration: 0.01ms !important;
   }
 
-  .service-rail__viewport {
-    overflow-x: auto;
-    -webkit-mask-image: none;
-    mask-image: none;
-  }
-
   .service-rail__track {
-    animation: none !important;
-    transform: none !important;
-  }
-
-  .service-rail__group[aria-hidden='true'] {
-    display: none;
+    animation-name: service-rail-scroll !important;
+    animation-duration: 34s !important;
+    animation-timing-function: linear !important;
+    animation-iteration-count: infinite !important;
   }
 }
