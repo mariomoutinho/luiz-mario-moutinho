@@ -90,7 +90,14 @@ export function Hero() {
             </div>
           </div>
 
-          <div className="absolute -bottom-5 -left-3 flex max-w-[245px] items-center gap-3 rounded-2xl border border-navy/8 bg-white p-4 shadow-[0_18px_50px_rgba(11,33,40,0.16)] sm:-left-8">
+          <div
+            className="
+              relative z-10 mx-3 mt-4 flex max-w-[212px] items-center gap-3 min-[360px]:max-w-[245px]
+              rounded-2xl border border-navy/8 bg-white p-4
+              shadow-[0_18px_50px_rgba(11,33,40,0.16)]
+              sm:absolute sm:bottom-28 sm:-left-8 sm:mx-0 sm:mt-0
+            "
+          >
             <span className="grid size-11 shrink-0 place-items-center rounded-full bg-teal/10 text-teal">
               <HeartPulse aria-hidden="true" className="size-5" />
             </span>
