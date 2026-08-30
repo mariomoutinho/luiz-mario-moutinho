@@ -107,6 +107,8 @@
   display: flex;
   width: max-content;
   animation: service-rail-scroll 34s linear infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
   will-change: transform;
 }
 
@@ -117,9 +119,11 @@
   padding-right: 0.75rem;
 }
 
-.service-rail:hover .service-rail__track,
-.service-rail:focus-within .service-rail__track {
-  animation-play-state: paused;
+@media (hover: hover) and (pointer: fine) {
+  .service-rail:hover .service-rail__track,
+  .service-rail:focus-within .service-rail__track {
+    animation-play-state: paused;
+  }
 }
 
 .faq-item summary::-webkit-details-marker {
@@ -142,8 +146,12 @@
 }
 
 @keyframes service-rail-scroll {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
   to {
-    transform: translateX(-50%);
+    transform: translate3d(-50%, 0, 0);
   }
 }
 
