@@ -1,17 +1,17 @@
 {
-  "name": "Kamba — Projetos em movimento",
-  "short_name": "Kamba",
-  "description": "Quadros Kanban para pessoas e equipes.",
-  "start_url": "/",
+  "name": "Luiz Mario Moutinho — Cuidado e movimento",
+  "short_name": "Luiz Mario",
+  "description": "Terapias integrativas e treinamento físico em Recife.",
+  "start_url": "./",
   "display": "standalone",
-  "background_color": "#fffaf5",
-  "theme_color": "#f97316",
+  "background_color": "#FBF9F4",
+  "theme_color": "#0B2128",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "purpose": "any"
     }
   ]
 }

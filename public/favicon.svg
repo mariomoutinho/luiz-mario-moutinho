@@ -1,7 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
-  <title id="title">Kamba</title>
-  <rect width="64" height="64" rx="18" fill="#f97316"/>
-  <path d="M17 16v32M18 34l12-15M18 34l14 14" fill="none" stroke="#fff7ed" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="37" y="16" width="11" height="11" rx="3" fill="#fed7aa"/>
-  <rect x="37" y="31" width="11" height="17" rx="3" fill="#fff7ed"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Luiz Mario Moutinho">
+  <rect width="64" height="64" rx="20" fill="#0B2128"/>
+  <path d="M17 16v30h19v-7H25V16h-8Z" fill="#FBF9F4"/>
+  <path d="M31 16h8l8 13V16h7v30h-7V31l-8-12v27h-8V16Z" fill="#D98258"/>
 </svg>
