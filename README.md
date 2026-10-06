@@ -42,16 +42,52 @@ A URL prevista, caso o repositório se chame `luiz-mario-moutinho`, é:
 
 `https://mariomoutinho.github.io/luiz-mario-moutinho/`
 
-Se o nome do repositório ou domínio mudar, atualize a canonical, o Open Graph e os arquivos
+## Informações já confirmadas
+
+- O portfólio divulga terapias integrativas, acupuntura, técnicas corporais, personal trainer e
+  consultoria de treinamento físico.
+- O site não possui formulário, banco de dados ou backend.
+- Todos os agendamentos são direcionados ao WhatsApp `(81) 99257-9809`.
+- O perfil profissional exibido é `@moutinho.lm`.
+
+## Pendências por categoria
+
+Os itens abaixo continuam a confirmar. As listas indicam decisões e verificações necessárias;
+não representam informações aprovadas para publicação.
+
+### Conteúdo essencial do portfólio
+
+- [ ] Confirmar a biografia profissional completa.
+- [ ] Confirmar quais formações podem ser divulgadas e como devem ser apresentadas.
+
+### Decisões comerciais
+
+- [ ] Confirmar a área exata atendida a domicílio.
+- [ ] Definir a periodicidade e os detalhes dos planos de treinamento.
+- [ ] Definir as políticas de agendamento.
+- [ ] Definir as políticas de cancelamento.
+- [ ] Definir a validade dos pacotes.
+
+### Ajustes técnicos
+
+- [ ] Confirmar o endereço definitivo de publicação e se será utilizado um domínio próprio.
+  A URL do GitHub Pages indicada acima permanece uma previsão.
+- [ ] Após confirmar esse endereço, revisar a canonical e o Open Graph.
+- [ ] Revisar `robots.txt` e `sitemap.xml` para refletir o endereço de publicação confirmado.
+
+Se o nome do repositório ou domínio mudar, atualizar a canonical, o Open Graph e os arquivos
 `robots.txt` e `sitemap.xml`.
 
-## Conteúdo a confirmar futuramente
+## Ordem recomendada para resolver as pendências
 
-- Biografia profissional completa e formações que possam ser divulgadas;
-- Periodicidade e detalhes dos planos de treinamento;
-- Área exata atendida a domicílio;
-- Políticas de agendamento, cancelamento e validade dos pacotes;
-- Domínio definitivo, caso seja utilizado.
+1. **Biografia e formações divulgáveis:** confirmar a apresentação profissional que sustentará
+   o conteúdo do portfólio.
+2. **Área de atendimento e planos de treinamento:** esclarecer onde o atendimento acontece e
+   quais condições compõem a oferta.
+3. **Agendamento, cancelamento e validade dos pacotes:** definir as regras comerciais com base
+   na oferta confirmada.
+4. **Endereço de publicação e ajustes técnicos:** confirmar o endereço e então revisar
+   canonical, Open Graph, `robots.txt` e `sitemap.xml`.
 
-O site não possui formulário, banco de dados ou backend. Todos os agendamentos são direcionados ao
-WhatsApp `(81) 99257-9809` e o perfil profissional exibido é `@moutinho.lm`.
+À medida que cada decisão for confirmada, atualizar o conteúdo correspondente do site e marcar
+o item como concluído. Manter em aberto o que ainda depender de confirmação.
